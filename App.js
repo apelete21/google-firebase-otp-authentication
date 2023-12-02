@@ -1,11 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import "./config/index"
+import Otp from './screens';
+import Command from './screens/Command';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <StatusBar style="light" />
+      {/* <Command /> */}
+      <Otp />
     </View>
   );
 }
